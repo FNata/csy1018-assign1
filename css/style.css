@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 14px;
+    background-color: lightgrey;
+    padding-top: 10px;
+
+}
+
+.wrapper{
+  width: 950px;
+  background: white;
+  margin: 0 auto;
+}
+
+.heading{
+  font-size: 20px;
+  height: 150px;
+  background: #808080;
+  padding: 10px;
+  text-align: left;
+}
+
+img{
+  display: block;
+  float: right;
+  width: 160px;
+  height: 200px;
+}
+.navigation{
+  font-family: cursive;
+  height: 40px;
+  background: #A9A9A9;
+  text-align: center;
+}
+.navigation a{
+  color: white;
+  text-decoration: none;
+}
+.content{
+  min-height: 700px;
+  background: #808080;
+  width: 950px;
+  float: left;
+}
+
+.content h1{
+  margin: 50px;
+}
+
+.content h3{
+  margin: 50px;
+}
+
+.footer{
+  clear: both;
+  background: #A9A9A9;
+  height: 60px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+#menu {
+  width: 550px;
+  height: 35px;
+  font-size: 18px;
+  text-align: center;
+}
+#menu ul {
+text-align: center;
+height: auto;
+padding: 6px;
+margin: 0px;
+}
+
+#menu li {
+  display: inline;
+  padding: 6px;
+  margin-right: 20px;
+}
+
+#menu li a:hover {
+  background-color: darkblue;
+}
+.contentindex{
+  font-size: 18px;
+  margin: 40px;
+  text-align: center;
+  padding: 5px;
+}
+
+.contentindex img{
+  padding-left: 20px;
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+}
+
+.contentcv{
+  padding: 1px;
+  margin: 20px;
+}
