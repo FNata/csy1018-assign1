@@ -7,14 +7,14 @@ body {
 }
 
 .wrapper{
-  width: 950px;
+  width:auto;
   background: white;
   margin: 0 auto;
 }
 
 .heading{
   font-size: 20px;
-  height: 150px;
+  height: 120px;
   background: #808080;
   padding: 10px;
   text-align: left;
@@ -28,21 +28,54 @@ img{
 }
 .navigation{
   font-family: cursive;
-  height: 40px;
-  background: #A9A9A9;
+  height: 70px;
+  background: #800020;
   text-align: center;
+
 }
+
 .navigation a{
   color: white;
   text-decoration: none;
+  font-size: 20px;
 }
 .content{
-  min-height: 700px;
+  min-height: 500px;
   background: #808080;
-  width: 950px;
+  width:100%;
   float: left;
 }
 
+.contentcontact{
+  margin: 50px;
+  width: auto;
+  text-align: center;
+}
+
+form div{
+  /* Just to center the form on the page */
+  margin: 0 auto;
+   width: 400px;
+   padding: 5px;
+}
+
+label{
+  display: inline-block;
+  text-align: right;
+  font-size: 18px;
+}
+
+input,textarea{
+  width: 300px;
+}
+
+textarea{
+  height: 150px;
+}
+
+legend{
+  font-size: 18px;
+}
 .content h1{
   margin: 50px;
 }
@@ -53,8 +86,8 @@ img{
 
 .footer{
   clear: both;
-  background: #A9A9A9;
-  height: 60px;
+  background: #800020;
+  height: 100px;
   text-align: center;
   padding: 10px;
   color: white;
@@ -80,7 +113,7 @@ margin: 0px;
 }
 
 #menu li a:hover {
-  background-color: darkblue;
+  background-color: lightgrey;
 }
 .contentindex{
   font-size: 18px;
@@ -89,14 +122,19 @@ margin: 0px;
   padding: 5px;
 }
 
-.contentindex img{
-  padding-left: 20px;
+.content img{
+  padding-left: 30px;
   margin: 30px;
-  width: 200px;
+  width: auto;
   height: 200px;
 }
 
+.contentbio p{
+  text-align: center;
+  font-size: 24px;
+}
+
 .contentcv{
-  padding: 1px;
-  margin: 20px;
+  padding-left: 0px;
+  margin: 10px;
 }

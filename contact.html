@@ -1,40 +1,64 @@
 <!DOCTYPE html>
 <html>
-<!--Florence Nana Anibia Twumasi-Ankrah - 16424857 -->
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>contact</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
-  </head>
-  <body>
+</head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet" />
+
+<body>
     <div class="wrapper">
-      <div class="heading">
-        <img src="Images/CVPhoto1.JPG" alt="CVPhoto" width="160" height="200" align="right">
-        <h1>Florence's Curriculm Vitae</h1>
-      </div>
-      <div class="navigation">
-        <div id="menu">
-          <ul class="ul">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="bio.html">About</a></li>
-              <li><a href="cv.html">Curriculum Vitae</a></li>
-              <li><a href="contact.html">Contact</a></li>
-          </ul>
-</div>
+        <div class="heading">
+            <img src="Images/CVPhoto1.JPG" alt="CVPhoto">
+            <h1>Florence's Curriculm Vitae</h1>
+        </div>
+        <div class="navigation">
+            <div id="menu">
+                <ul class="ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bio.html">About</a></li>
+                    <li><a href="cv.html">Curriculum Vitae</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
 
-      </div>
+            </div>
 
-      <div class="content">
-        <address class="">
-      13 Smiths Avenue, St Albert Road, Northampton, NN2 6JD
-    </address>
-    <p><a href="mailto:florence.nana20@yahoo.co.ukS">florence.nana20@yahoo.co.uk</a></p>
-      </div>
-      <div class="footer">
-        This website is developed by Florence
-      </div>
+        </div>
+        <div class="content">
+            <div class="contentcontact">
+                <form action="/my-handling-form-page" method="post">
+                  <fieldset>
+    <legend><h2>Contact Me:</h2></legend>
+
+                    <div>
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="firstname" name="viewerfname" />
+                    </div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lastname" name="viewerlname">
+                    <div>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="viewersemail" />
+                    </div>
+                    <div class="msg">
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="viewermessage"></textarea>
+                    </div>
+
+                    <div class="button">
+                        <button type="submit">Send Message</button>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+        </div>
+        <div class="footer">
+            This website is developed by Florence
+        </div>
     </div>
+</body>
 
-  </body>
 </html>
