@@ -6,14 +6,6 @@ Using HTML5 and CSS I created four personal web pages, which are all linked toge
 Although, I have completed these instructions, I have not correctly implemented, optimizing my images, as much although my images, where primary images, and where already changed. I found it difficult to create a form, so I used a website which taught me how to do this, and to put it into practise. I ensured I did this – this allowed me to successfully create a contact form, for my contact page. Also, used a website to help me find the hex colour codes for CSS stylesheet. Lastly, my code layout was not perfect although, I used Atom beautifier to help enhance this.
 As I was nearly finished with my assignment, earlier, I wanted to improve it, to ensure I received the best possible grade. To achieve this I asked, Michael Omogbai, to give me brief feedback on what I had produced to ensure I was on the right track. He then ensured that if I wanted to achieve a better grade, that I should work on my layout, and adding more features. He reminded me to use the resources set by out lecturer.  The first two images below, show how my website was before, I had focused on the layout and the design, as well as my wireframe I created beforehand. The next image, shows the after design after focusing more on the CSS file.
 
-
-
-
-
-
-
-
-
 Overall, in completing this assignment I spent approximately, 40-45 hours. This is because I had started and deleted my work twice, which meant I had to then restart and put more effort in to my final piece – allowing me to add more skills into my work ethic.
 Florence Twumasi Ankrah 16424857
 
