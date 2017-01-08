@@ -17,6 +17,7 @@ body {
     width: auto;
     background: white;
     margin: 0 auto;
+    flex: auto;
     /* adds a barrier for the text, against the wrapper */
 }
 
@@ -44,6 +45,7 @@ img {
     height: 50px;
     background: #800020;
     text-align: center;
+    flex: auto;
 }
 
 .navigation a {
@@ -108,6 +110,7 @@ legend {
     text-align: center;
     padding: 10px;
     color: white;
+    flex: auto;
 }
 
 
@@ -147,6 +150,7 @@ legend {
 #socialmedia img {
     width: 70px;
     height: 60px;
+    display: flex;
 }
 
 .contentindex {
